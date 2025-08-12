@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>OOPS!</title>
+  </head>
+<body>
+  
+  
+<div id="tremblebox">
+<p id="trembletext"> SHIT! YOU'VE GOTTEN YOURSELF TO THE BUTTFUCK OF NOWHERE! THE ERROR PAGE!</p>
+</div>
+
+
+
+
+<script>
+var ie=document.all?1:0
+var ns6=document.getElementById&&!document.all?1:0
+var ns4=document.layers?1:0
+var posleft=1
+var idoftrembleobject="trembletext"
+var trembleobject
+
+function starttremble() {
+    if (ie || ns4 || ns6) {
+        if (ie) {
+            trembleobject=eval("document.all."+idoftrembleobject+".style")
+        }
+        if (ns6) {
+            trembleobject=idoftrembleobject
+        }
+        
+	    dotremble()
+    }
+}
+function dotremble() {
+    posleft*=-1
+    if (ie) {
+	    trembleobject.posLeft+=posleft  
+    }
+    if (ns6) {
+	    var newpos=parseInt(document.getElementById(trembleobject).style.left)+posleft
+        document.getElementById(trembleobject).style.left=newpos
+    }
+    var timer=setTimeout("dotremble()",20)
+}
+onload=starttremble
+</script>
+
+
+
+  </body>
+</html>

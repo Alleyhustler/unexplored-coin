@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from bungeegum.neocities.org/main by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Aug 2025 18:13:46 GMT -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=2000; user-scalable=0;" />
+    <title>BUNGEEGUM 1989</title>
+    <link rel="icon" type="image/png"
+     href="2.0%20neo%20images/cassy-removebg-preview.png" />
+     
+     <link rel="shortcut icon"
+     href="2.0%20neo%20images/cassy-removebg-preview.png" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <style>
+    
+html, body { 
+  cursor: url("bgcursor.png"), default; 
+  }
+    
+body {
+  font-family: "pixel";
+    font-size: 11px;
+    color: white;
+    line-height: 1.5;
+  background-attachment: fixed;
+  background-image: url("2.0%20neo%20images/1xv4czx91bb71.png");
+  background-size: cover;
+}
+
+#overlay {
+    position:fixed;
+    z-index: 100;
+    top:0; 
+    left:0;
+    bottom:0; 
+    right:0;
+    opacity: .1;
+    background-image: url("../cliply.co/wp-content/uploads/2021/07/402107790_STATIC_NOISE_400.gif");
+    background-blend-mode: screen;  
+    background-color: ; 
+    pointer-events: none !important;
+}
+
+
+
+@font-face {
+  font-family: pixel;
+  src: url(pixel.ttf);
+}
+
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+@font-face {
+  font-family: meltdowns;
+  src: url(meltdowns.html);
+}
+
+
+
+a:link {
+  text-decoration: none;
+  color: #0011ff;
+}
+
+a:visited {
+  color: #0011ff;
+}
+
+a:hover {
+  color: #0062ff;
+  text-decoration: underlined;
+}
+
+a:active {
+  color: #0011ff;
+}
+
+.title {
+  font-size:60px;
+  color: #ff0059;
+  height:100px;
+  position: absolute;
+  top: -50px;
+  left: 48%;
+  margin-left: -325px;
+}
+
+
+.everything {
+  position: absolute;
+  top: 55px;
+  left: 49%;
+  display: flex;
+  margin-left: -600px;
+  width: 1200px;
+  height: 1000px;
+  
+}
+
+.neon{
+  font-family: 'neon', cursive;
+  font-size:70px;
+  color: #b5b5ff;
+  font-weight: 100;
+  text-shadow: 1px 0px 3px #b5b5ff, 1px 1px 1px #b5b5ff, 1px 0px 0px #b5b5ff, 2px 0px 4px #0000ff, 1px 1px 5px #0000ff, 2px 0px 15px, 5px 0px 105px, 10px 0vw 200px #0000ff,10px 0vw 200px #0000ff;
+position: absolute;
+top: -110px;
+right: 8px;
+}
+
+.flicker-slow{
+  animation: flicker 3s linear infinite;
+}
+
+.flicker-fast{
+  animation: flicker 1s linear infinite;
+}
+
+@keyframes flicker {
+	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+		//text-shadow: none;
+    opacity: .99;
+		
+	}
+	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+		opacity: 0.4;
+	}
+}
+
+.main {
+  position: absolute;
+  height: 650px;
+  width: 700px;
+  top: 180px;
+  left: 245px;
+}
+
+.intro {
+
+  border: solid 2px transparent;
+width: 450px;
+position: absolute;
+left: 0px;
+height: 250px;
+
+}
+
+.buttonplace {
+background-color:  rgba(0,0,0,0.9);
+  border: double 5px #000dff;
+position: absolute;
+width: 400px;
+height: 150px;
+right: -2px;
+top: 300px;
+
+}
+
+.extraspace {
+background-color:  rgba(0,0,0,0.9);
+  border: double 5px #000dff;
+position: absolute;
+width: 400px;
+height: 200px;
+right: -2px;
+top: 540px;
+
+}
+
+.floor {
+background-color:  rgba(0,0,0,0.9);
+  border: double 5px #000dff;
+position: absolute;
+width: 500px;
+height: 100px;
+right: -2px;
+top: 785px;
+
+}
+
+.mapbook {
+width: 450px;
+height: 150px;
+position: absolute;
+top: 270px;
+left: -2px;
+z-index: 3;
+}
+
+.updates {
+
+background-color:  rgba(0,0,0,0.9);
+  border: double 5px #000dff;
+  position: absolute;
+  height: 280px;
+  width: 410px;
+  top: 470px;
+left: 0px;
+
+}
+
+.sides {
+    position: absolute;
+  height: 700px;
+  width: 200px;
+  top: 40px;
+
+  border: double 5px transparent;
+}
+
+.sides2 {
+    position: absolute;
+  height: 220px;
+  width: 200px;
+  top: 40px;
+  background-color:  rgba(0,0,0,0.9);
+  border: double 5px #000dff;
+}
+
+.copyright {
+position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+left: 10px;
+font-size: 20px;
+
+
+}
+
+
+#icon {
+  height: 50px;
+  width: 50px;
+}
+
+
+.scroll-parent {
+  position: relative;
+  width: 893px;
+  height: 80px;
+  overflow-x: hidden;
+  left: -147px;
+}
+
+.scroll-element {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  animation: primary 20s linear infinite;
+}
+
+.primary {
+  animation: primary 10s linear infinite;
+}
+
+.secondary {
+  animation: secondary 10s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+.blinkies-parent {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  overflow-x: hidden;
+  left: 0px;
+}
+
+.blinkies-element {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  animation: primary 10s linear infinite;
+}
+
+.firsts {
+  animation: primary 10s linear infinite;
+}
+
+.seconds {
+  animation: secondary 10s linear infinite;
+}
+
+@keyframes firsts {
+  from {
+    right: 0%;
+  }
+  to {
+    right: -100%;
+  }
+}
+
+@keyframes seconds {
+  from {
+    right: 100%;
+  }
+  to {
+    right: 0%;
+  }
+}
+
+.rotate {
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.marq {
+  height: 150px;
+  overflow: hidden;
+width: 300px;
+position: absolute;
+right: 0px;
+}
+
+.scrolling {
+  animation: marquee 3s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateY(0);
+  }
+  to { 
+    transform: translateY(-100%);
+  }
+}
+
+.marquee-horizontal2 {
+  display: flex;
+  overflow: hidden;
+  width: 500px;
+  white-space: nowrap;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.track-horizontal2 {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee-horizontal 10s linear infinite;
+margin-top: -50px;
+margin-bottom: -30px;
+}
+
+.marquee-text {
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  white-space: nowrap;
+  box-sizing: border-box;
+  padding-right: 0.3em;
+  padding-left: 0.3em;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  font-family: 'Helvetica', sans-serif;
+  color: #1d4130;
+  font-size: 6.25em;
+  font-weight: 700;
+  text-transform: uppercase;
+margin-right: -35px;
+}
+
+@keyframes marquee-horizontal {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.cabaretlink {
+position: absolute;
+width: 180px;
+height: 70px;
+border: solid 3px transparent;
+z-index: 3;
+top: -152px;
+left: -240px;
+transform: rotate(-13deg);
+}
+
+.stripclublink {
+position: absolute;
+width: 180px;
+height: 50px;
+border: solid 3px transparent;
+z-index: 3;
+top: 52px;
+left: -230px;
+transform: rotate(9deg);
+}
+
+
+</style>
+</head>
+
+<body>
+<center>
+
+<div id="smoket"></div>
+    <div id="popupt" style="display:none;background-color:rgba(0,0,0,0.9);position:absolute;top:0px;left:0px;z-index:9999;border-radius:6px;border:1px solid #4f4f4f;">
+      <div id="popup_bart" style="width:100%;background-color:#000dff;position:relative;top:0;border-radius:6px 6px 0 0; text-align:center;height:24px;cursor:move;color:white; font-family: pixel;">	&nbsp;	&nbsp;	SITEMAP<span id="btn_closet" style="float:right;cursor:pointer;padding-right:6px;">[X]</span></div>
+      <div style="position: absolute; overflow: auto; height: 476px; width: 700px;">
+      <div style="font-size: 20px; line-height: 1.0; text-align: left; margin-left: 40px; margin-top: 40px;">
+<p>HOMEPAGE ( THIS IS WHERE YOU ARE !! )</p>
+<p>╰┈➤ <a href="aboutme.html">CABARET</a> « about me »</p>
+<p>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➥ <a href="music.html">muscians</a> ➥ <a href="games.html">video games</a> ➥ <a href="animanga.html">animanga</a> ➥ <a href="general.html">general</a></p>
+<p>|</p>
+<p>╰┈➤ <a href="gallery.html">STRIP CLUB</a> « gallery »</p>
+      </div>
+      </div>
+      </div>
+
+
+<div class="everything">
+
+<div class="title"> 
+
+<img src="2.0%20neo%20images/IMG_7031.gif"> 
+
+</div>
+
+<div class="main">
+
+<a href="aboutme.html"><div class="cabaretlink"></div></a>
+<a href="gallery.html"><div class="stripclublink"></div></a>
+
+<div class="scroll-parent" style="position: absolute; top: -80px;">
+  <div class="scroll-element primary">
+<img src="https://64.media.tumblr.com/512b798ff1216f3ce3dfb0c11ec3308a/6aac2dfd1adf35bc-94/s100x200/5bed6ea9b8258696f352e4f91244fe7ac5e4d61d.pnj">&nbsp;
+<img src="../cyber.dabamos.de/88x31/arcadevirus_av4.gif">&nbsp;
+<img src="../cyber.dabamos.de/88x31/cocksuckingfaggot.gif">&nbsp;
+<img src="../dokode.moe/media/88x31deco/LUVORATORY.gif">&nbsp;
+<img src="https://64.media.tumblr.com/edfd655d94607de323856181c5481bca/95008fb9b17f9465-a5/s100x200/a9cbdf7e5a2f2e551640b0ad9489f9a78d5c27bd.gifv">&nbsp;
+<img src="../cyber.dabamos.de/88x31/any_browser_at.gif">&nbsp;
+<img src="2.0%20neo%20images/IMG_6926.gif">&nbsp;
+<img src="../cyber.dabamos.de/88x31/blink-0.gif">&nbsp;
+<img src="../cyber.dabamos.de/88x31/brbutton.gif">&nbsp;
+<img src="../dokode.moe/media/88x31deco/playstation.gif">&nbsp;
+<img src="../cyber.dabamos.de/88x31/y2k.gif">&nbsp;
+<img src="../dokode.moe/media/88x31deco/gay.png">&nbsp;
+<img src="https://64.media.tumblr.com/1bab9127f4854d83ac4d7b0f17d29c69/a1da1680c0176449-d8/s100x200/fbdf4848e399b4dfc9f344aef014e81545acf151.pnj">&nbsp;
+<img src="../cyber.dabamos.de/88x31/geocities_fhp.gif">&nbsp;
+<img src="../dokode.moe/media/88x31deco/handcoded.gif">&nbsp;
+<img src="../64.media.tumblr.com/bdb5872acb46c5c21ba2f0c829c2156c/e1888f0e705a8285-91/s100x200/tumblr_bdb5872acb46c5c21ba2f0c829c2156c_bf20fb12_100.gif">&nbsp;
+<img src="../keysklubhouse.com/collect/graphics/88x31/parentaladvisory.png">&nbsp;
+<img src="../yesterhost.neocities.org/archive/buttons/button285.gif">&nbsp;
+</div>
+
+
+  <div class="scroll-element secondary">
+<img src="https://64.media.tumblr.com/512b798ff1216f3ce3dfb0c11ec3308a/6aac2dfd1adf35bc-94/s100x200/5bed6ea9b8258696f352e4f91244fe7ac5e4d61d.pnj">&nbsp;
+<img src="../cyber.dabamos.de/88x31/arcadevirus_av4.gif">&nbsp;
+<img src="../cyber.dabamos.de/88x31/cocksuckingfaggot.gif">&nbsp;
+<img src="../dokode.moe/media/88x31deco/LUVORATORY.gif">&nbsp;
+<img src="https://64.media.tumblr.com/edfd655d94607de323856181c5481bca/95008fb9b17f9465-a5/s100x200/a9cbdf7e5a2f2e551640b0ad9489f9a78d5c27bd.gifv">&nbsp;
+<img src="../cyber.dabamos.de/88x31/any_browser_at.gif">&nbsp;
+<img src="2.0%20neo%20images/IMG_6926.gif">&nbsp;
+<img src="../cyber.dabamos.de/88x31/blink-0.gif">&nbsp;
+<img src="../cyber.dabamos.de/88x31/brbutton.gif">&nbsp;
+<img src="../dokode.moe/media/88x31deco/playstation.gif">&nbsp;
+<img src="../cyber.dabamos.de/88x31/y2k.gif">&nbsp;
+<img src="../dokode.moe/media/88x31deco/gay.png">&nbsp;
+<img src="https://64.media.tumblr.com/1bab9127f4854d83ac4d7b0f17d29c69/a1da1680c0176449-d8/s100x200/fbdf4848e399b4dfc9f344aef014e81545acf151.pnj">&nbsp;
+<img src="../cyber.dabamos.de/88x31/geocities_fhp.gif">&nbsp;
+<img src="../dokode.moe/media/88x31deco/handcoded.gif">&nbsp;
+<img src="../64.media.tumblr.com/bdb5872acb46c5c21ba2f0c829c2156c/e1888f0e705a8285-91/s100x200/tumblr_bdb5872acb46c5c21ba2f0c829c2156c_bf20fb12_100.gif">&nbsp;
+<img src="../keysklubhouse.com/collect/graphics/88x31/parentaladvisory.png">&nbsp;
+<img src="../yesterhost.neocities.org/archive/buttons/button285.gif">&nbsp;
+</div>
+
+
+</div>
+
+<img src="2.0%20neo%20images/Untitled852_20240109224417.png" id="startOrStopImg" class="rotate" style="position: fixed; bottom: 0px; left: 0px; width: 150px; z-index: 100;"> <img src="2.0%20neo%20images/IMG_7036.gif" style="position: fixed; bottom: 0px; left: 40px; width: 150px; z-index: 100; pointer-events: none !important;">
+
+<audio loop autoplay id="audio"><source src="https://files.catbox.moe/f40wis.mp3" type="audio/mpeg"></audio>
+
+
+<div>
+<img src="2.0%20neo%20images/Untitled851_20240109175334.gif" style="position: absolute; left: -125px; z-index: 1; top: -70px;">
+</div>
+
+<div class="intro" style="z-index: 2;">
+
+
+<p style="font-size: 15px; margin-left: 20px; margin-right: 20px; margin-top: 25px; z-index: 2;">come on in to bungeegum, the place to be during these prime hours of the night~. i heard the owner is hangin' around the cabaret... oh, but we can stay and look around for a bit more if ya need. i've been here plenty of times, but someone like you should probably grab a map of the place first- and write yer name down in the precinct guestbook too. they like knowin' whose come in and out of this place. you never know what could happen if someone's not keepin' track~.</p>
+
+</div>
+
+<div class="mapbook">
+
+<div style="width: 195px; position: absolute; height: 160px; border: solid transparent 2px; font-size: 30px; z-index: 3;"><a id="btn_popupt" style="color: transparent">sadsadhwqqesa<br>sadsfewladiuqw<br>sadhjkahdsakjal</a></div>
+
+<img src="2.0%20neo%20images/ezgif-5-0bf43213b9.gif" style="position: absolute; width: 220px; left: -15px; top: -10px;">
+
+<a href="http://bungeegum.123guestbook.com/" target="_BLANK"><img src="2.0%20neo%20images/ezgif-5-e894033723.gif" style="position: absolute; width: 220px; right: 15px; top: -13px;"></a>
+
+</div>
+
+<div class="updates">
+
+<img src="2.0%20neo%20images/IMG_7079.gif" style="position: absolute; left: -95px; top: -75px; z-index: 2; pointer-events: none !important;">
+
+<div style="position: absolute; width: 410px; height: 252px; top: 28px; font-size: 15px; text-align: left; overflow: auto;">
+<p style="margin-left: 20px; margin-right: 20px;"><span style="font-size: 17px; color: #fc03b1;"><b>APR 17TH, 2024:</b></span> small update; added a warning on the very first page of the site that lets people know that the site takes a moment to load. i realized that people may think its a fault of their computers or the site itself lags, when in reality i just put waaay too much shit on the main page</p>
+<hr>
+<p style="margin-left: 20px; margin-right: 20px;"><span style="font-size: 17px; color: #fc03b1;"><b>MAR 30TH, 2024:</b></span> WOO! finally, the sitemap is able to be popped-up! it's slghtly particular to where you click it for it to open, but it shouldn't be too much of an issue. of course, it will be updated every tme there is a new page added as well</p>
+<hr>
+<p style="margin-left: 20px; margin-right: 20px;"><span style="font-size: 17px; color: #fc03b1;"><b>MAR 24TH, 2024:</b></span> strip club is open! sorry for not updating, moved and stuff lmao. this page is pretty damn basic as of now, i'll make it prettier later that just involves drawing things for the layout lol. and i'm lazy. site map ACTUALLY next since now there's a couple pages that go every which way</p>
+<hr>
+<p style="margin-left: 20px; margin-right: 20px;"><span style="font-size: 17px; color: #fc03b1;"><b>JAN 16TH, 2024:</b></span> the cabaret is finally opeeeeeeen, or at least the bare bones of it. it has all the info it needs, just doesn't look as pretty as i want it to lmao. will do the site map next alongside making the cabaret prettier, since my about me page has a couple of links that lead out of it! then after that comes the really fun stuff</p>
+<hr>
+<p style="margin-left: 20px; margin-right: 20px;"><span style="font-size: 17px; color: #fc03b1;"><b>JAN 10TH, 2024:</b></span> BUNGEEGUM 2.0 IS FINALLY HERE !! we only have the bare essentials up right now, but i'm gonna be working on everything else for the next couple days since i'm so hyperfocused on this. hope the new layout is cool enough~. i'm proobably gonna be picking at this main page too over and over again. lots of plans.</p>
+</div>
+
+</div>
+
+
+
+</div>
+
+<div class="sides" style="left: 0px">
+
+<img src="2.0%20neo%20images/Untitled855_20240110181237.png" style="position: absolute; width: 250px; top: -75px; left: -30px;">
+
+</div>
+
+<div class="sides2" style="right: 0px">
+
+<a href="index.html" target="BLANK_" style="text-decoration:none"><h1 class="neon" data-text="U">OP<span class="flicker-slow">E</span>N</h1></a>
+
+<p style="font-size: 20px; margin-top: 30px;"> WELCOME GUEST #</p>
+<div>
+<script language="javascript" type="text/javascript" src="http://counter1.fc2.com/counter.php?id=39445578&amp;main=1"></script><noscript><img src="http://counter1.fc2.com/counter_img.php?id=39445578&amp;main=1" /></noscript>
+</div>
+
+<img src="2.0%20neo%20images/Untitled845_20240108162530.png" style="width: 88px; margin-top: 106px; position: absolute; left: -15px; top: -22px;">
+
+<img src="2.0%20neo%20images/IMG_6950.gif" style="width: 88px; margin-top: 9px; z-index: 4;">
+
+<img src="2.0%20neo%20images/Untitled845_20240108162604.png" style="width: 88px; margin-top: 107px; position: absolute; right: -15px; top: -22px;">
+
+<img src="2.0%20neo%20images/neofujislower%20(1).gif" style="width: 530px; position: absolute; right: 70px; top: -100px; pointer-events: none !important; z-index: 4;">
+
+<div>
+ <textarea rows="3" style="background-color: black; color: white; margin-top: 10px;"><a href="index.html" target="_blank"><img src="2.0%20neo%20images/IMG_6950.gif"></a></textarea>
+</div>
+
+<div class="buttonplace">
+
+<img src="2.0%20neo%20images/Untitled857_20240110211327.png" style="position: absolute; top: -125px; left: -200px; z-index: 3; pointer-events: none !important;">
+
+<div class="marq">
+  <div class="scrolling">
+<a href="https://uncannyvalley.neocities.org/" target="_blank"><img src="../uncannyvalley.neocities.org/uncanny.gif"></a>
+<a href="https://hellspit.gay/" target="_blank" ><img src="../hellspit.gay/buttons/hellspit1.gif"></a>
+<a href="https://kidwiththechemicalz.neocities.org/" target="_blank"><img src="../kidwiththechemicalz.net/88x31.gif"></a>
+<a href="https://pennylovespandas.neocities.org/" target="_blank"><img src="../pennylovespandas.neocities.org/pennysbutton.gif"/></a>
+<a href="https://mypillowfort.neocities.org/" target="_blank"><img src="../mypillowfort.neocities.org/media/653.gif"/></a>
+<a href="https://hunipyon.neocities.org/" target="_blank"><img src="https://imgur.com/EvAZO02"/></a>
+<a href="https://danppun.neocities.org/" target="_blank"><img src="../danppun.neocities.org/danppun_btn.png"/></a>
+<a href="https://heart143.neocities.org/" target="_blank"><img src="../heart143.neocities.org/assets/my-buttons/heartspace-1.png"/></a>
+<a href="https://yuentp.neocities.org/" target="_blank"><img src="https://imgur.com/cjEGuys"/></a>
+<a href="https://glitchedguts.neocities.org/" target="_blank"><img src="https://postimg.cc/m1HWj8g1" style="width: 88px;"/></a>
+<a href="https://onlywonder.net/" target="_blank"><img src="../onlywonder.net/images/wonderbutton2.html"/></a>
+<a href="https://supernxva.neocities.org/" target="_blank"><img src="../piskel-imgstore-b.appspot.com/img/20a1f938-1157-11ed-9a76-c9441f51b588.gif"/></a>
+<a href="https://10kph.neocities.org/" target="_blank"><img src="../karma.computer/assets/img/10kph-03.png"/></a>
+<a href="https://humanityisnotbeautiful.neocities.org/" target="_blank"><img src="../files.catbox.moe/vltthb.png" alt="Velvet Blue"></a>
+<a href="https://datoxicwaltz.neocities.org/" target="_blank"><img src="../datoxicwaltz.neocities.org/img/red_datoxicwaltz.html"></a>
+<a href="https://riversideee.neocities.org/" target="_blank"><img src="../riversideee.neocities.org/images/blinkies/p-riversideee.html"></a>
+<a href="https://virtually-isolated.neocities.org/home" target="_blank"><img src="../virtually-isolated.neocities.org/images/button.png"></a>
+<a href="https://bruisedgh0st.neocities.org/" target="_blank"><img src="../bruisedgh0st.neocities.org/button.gif"></a><br>
+<a href="https://bearlythere.neocities.org/" target="_blank"><img src="../bearlythere.neocities.org/images/button.html"></a>
+<a href="https://pinkytelephone.neocities.org/" target="_blank"><img src="../pinkytelephone.neocities.org/Buttons/Button_1.html"></a>
+</div>
+  <div class="scrolling">
+<a href="https://uncannyvalley.neocities.org/" target="_blank"><img src="../uncannyvalley.neocities.org/uncanny.gif"></a>
+<a href="https://hellspit.gay/" target="_blank" ><img src="../hellspit.gay/buttons/hellspit1.gif"></a>
+<a href="https://kidwiththechemicalz.neocities.org/" target="_blank"><img src="../kidwiththechemicalz.net/88x31.gif"></a>
+<a href="https://pennylovespandas.neocities.org/" target="_blank"><img src="../pennylovespandas.neocities.org/pennysbutton.gif"/></a>
+<a href="https://mypillowfort.neocities.org/" target="_blank"><img src="../mypillowfort.neocities.org/media/653.gif"/></a>
+<a href="https://hunipyon.neocities.org/" target="_blank"><img src="https://imgur.com/EvAZO02"/></a>
+<a href="https://danppun.neocities.org/" target="_blank"><img src="../danppun.neocities.org/danppun_btn.png"/></a>
+<a href="https://heart143.neocities.org/" target="_blank"><img src="../heart143.neocities.org/assets/my-buttons/heartspace-1.png"/></a>
+<a href="https://yuentp.neocities.org/" target="_blank"><img src="https://imgur.com/cjEGuys"/></a>
+<a href="https://glitchedguts.neocities.org/" target="_blank"><img src="https://postimg.cc/m1HWj8g1" style="width: 88px;"/></a>
+<a href="https://onlywonder.net/" target="_blank"><img src="../onlywonder.net/images/wonderbutton2.html"/></a>
+<a href="https://supernxva.neocities.org/" target="_blank"><img src="../piskel-imgstore-b.appspot.com/img/20a1f938-1157-11ed-9a76-c9441f51b588.gif"/></a>
+<a href="https://10kph.neocities.org/" target="_blank"><img src="../karma.computer/assets/img/10kph-03.png"/></a>
+<a href="https://humanityisnotbeautiful.neocities.org/" target="_blank"><img src="../files.catbox.moe/vltthb.png" alt="Velvet Blue"></a>
+<a href="https://datoxicwaltz.neocities.org/" target="_blank"><img src="../datoxicwaltz.neocities.org/img/red_datoxicwaltz.html"></a>
+<a href="https://riversideee.neocities.org/" target="_blank"><img src="../riversideee.neocities.org/p-riversideee.html"></a>
+<a href="https://virtually-isolated.neocities.org/home" target="_blank"><img src="../virtually-isolated.neocities.org/images/button.png"></a>
+<a href="https://bruisedgh0st.neocities.org/" target="_blank"><img src="../bruisedgh0st.neocities.org/button.gif"></a><br>
+<a href="https://bearlythere.neocities.org/" target="_blank"><img src="../bearlythere.neocities.org/images/button.html"></a>
+<a href="https://pinkytelephone.neocities.org/" target="_blank"><img src="../pinkytelephone.neocities.org/Buttons/Button_1.html"></a>
+</div>
+</div>
+
+
+</div>
+
+<div class="extraspace">
+
+<img src="2.0%20neo%20images/Untitled858_20240110215258.gif" style="position: absolute; top: -100px; left: -200px;pointer-events: none !important; z-index: 2;">
+
+<iframe width="300" height="170" style="position: absolute; left: 80px; top: 20px;"
+src="https://www.youtube.com/embed/ZHwVBirqD2s">
+</iframe>
+
+</div>
+
+<div class="floor">
+
+<div class="marquee-horizontal2">
+    <div class="track-horizontal2">
+        <div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/027d4a98e3acd5c45839f2828b605fc3/c817f282d7cc8e74-93/s250x400/6d564e2691ff2fb9eb2ba4fefc2ecd714c3c1b9c.gifv"></div>
+        <div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/6e75687a801b6467e5f732db08a5c360/872e564ed621d8c2-a6/s250x400/00a5e0e1d95fcbebc2980d0b029ecdcb8c3a471a.gifv"></div>
+        <div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/55ff376afb203a29a88d76454d4553c4/6b46c94d902ee133-51/s400x600/92e761f6982f08fee54c528c36f4f6f255d2b2ca.gifv"></div>
+        <div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/6c317cc380ade6cb070c5e5aad9d1442/13481c80fc598363-b7/s400x600/9759ba1c4f0b68750cda87b5e20fef5ba610586b.gifv"></div>
+        <div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/c7024ea5d610557273b18115b80a25e0/96fb6f2666389564-ef/s250x400/97499d45d9abd39ff8df333eae23faaff8eecdc1.gifv"></div>
+        <div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/53467c616df3d643a22cfa1a9955ca25/4ca2d83e96d00358-ac/s640x960/dbae1688fad14f181fa5388647c56959067eba48.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/f7648dc8bc118f0e69437807a6a60962/732f106278c2a865-a8/s500x750/bc51ebb51f86e603e5a8492991a90264a6cc216c.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/45694a0bb8d2f9c8c6d614c4955dc6d3/4fcaafd0eda5eb61-8f/s400x600/ca8aa9fec48a402cbc2865d50e12838464a4200e.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/f1f3751521f525c0073b0a07924d1b00/27938b499e2ea0ad-f4/s400x600/e0fe95b0e365d120ad8ac7cfae215d34a9a0370c.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/80d9cb5f944ae34dd32d1df7cb9eda19/5adae4a3a93f475e-21/s400x600/912534f6f4f66ce6854363b1859ff14a3e5c48ae.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/5285668aa88446ee61d7b4ff3de7d8aa/8057354a6c1c7c5a-db/s250x400/662c1ae2ccd4fc482bae58e789a963d1cc06130f.gifv"></div>
+<div class="marquee-text"><img src="https://64.media.tumblr.com/b7ef0e709659381b7e2112bfbc0f9a8f/7f7e84c217be5a29-18/s250x400/51e0b388be7840d593098c9a084b598f45a0737b.gifv"></div>
+
+
+    </div>
+</div>
+
+<div class="marquee-horizontal2">
+    <div class="track-horizontal2">
+<div class="marquee-text"><img src="https://64.media.tumblr.com/3a827b881db7c47eee0881741afd8f68/ed7e0512a64f5287-09/s250x400/2862d660cad31fd3bb82e494912ea6ece3b3f4ba.gifv"></div>
+<div class="marquee-text"><img src="https://64.media.tumblr.com/c11fa24c2c81f7915e56b789d227946b/aedacb38fb8d32a1-e9/s250x400/84a8a43d0228c32bd8e0a480981731ed060657d6.gifv"></div>
+<div class="marquee-text"><img src="https://64.media.tumblr.com/ebad17b323ec63ee8824c5b6741ad012/c4e18bceab763edb-b3/s250x400/5151eb7374e91132c8fb5bf7712563902f0674d5.gifv"></div>
+<div class="marquee-text"><img src="https://64.media.tumblr.com/34b9564beea1c26fb7ce4374a9efce91/db75d5abfa332f41-d9/s250x400/6da8e9e3070630d80020777045f6d9dfbbb0f5a6.gifv"></div>
+<div class="marquee-text"><img src="https://64.media.tumblr.com/88a228f51ef9a9f513072e76103f0e70/44546c90d3f94d06-1f/s250x400/4692aa5905ec4361070e24930c0a68aeb57ff0fb.gifv"></div>
+<div class="marquee-text"><img src="https://64.media.tumblr.com/c74a35659fd1ca684c9d85058bd7cf3c/64b8a4dac8952bf6-e0/s250x400/aa42d135d5f1a76824cc30f6a96854c340ff3163.gifv"></div>
+
+
+<div class="marquee-text"><img src="https://64.media.tumblr.com/d157f94bdb52ca80553331dc99a1ef2b/aa1d141d7808fcb7-86/s250x400/fdf81fd53b3aaf730af758d43b91906039794179.gifv"></div>
+<div class="marquee-text"><img src="https://64.media.tumblr.com/3bfd1f0c9d49b6d035d7022d03df0822/81c534b9b7112a48-0b/s250x400/2c6ff74809d858d8d7d0a33a778c155fe3a415f0.gifv"></div>
+<div class="marquee-text"><img src="https://64.media.tumblr.com/6a2adea73c2c3ea260765034dccda053/ee9c351da39a9a88-6a/s250x400/1106b56ecd9771a5ebd671619c199d33cb8c38bf.gifv"></div>
+<div class="marquee-text"><img src="https://64.media.tumblr.com/7e78ee838927558f5bff08ebefd8b468/19d8f90fbd87672a-5e/s250x400/513d248ac78d98a5308acdc162ba38692207ae77.gifv"></div>
+<div class="marquee-text"><img src="https://64.media.tumblr.com/e75901fa8329abe456f3c73cbe1a36ac/4fb7b8a5dcb26992-b5/s250x400/6fcc1794743690bffc7fbc84a71ac22a34678fdf.gifv"></div>
+<div class="marquee-text"><img src="https://64.media.tumblr.com/b8150d319aba6224bb7761ae97fde60d/8f74fd45a46d65f6-20/s250x400/ceeea689545b4b64eecda655548e88513452e9fc.gifv"></div>
+
+</div>
+</div>
+
+<div class="marquee-horizontal2">
+    <div class="track-horizontal2">
+<div class="marquee-text"><img src="https://64.media.tumblr.com/9de3f2595b90e0be23bccc2194b90d0c/c25b353a029d94b7-8d/s250x400/0cf10ebd4c6e8e035a39e29f3728cdcef0fe712c.gifv"></div>
+<div class="marquee-text"><img src="../hellspit.gay/blinkies/dance.gif"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="../y2k.neocities.org/blinkiez/newbatch/z8c9dh3.gif"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="../y2k.neocities.org/blinkiez/tumblr_pavzye1Cr01wiuymwo1_250.gif"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="../i4.glitter-graphics.org/pub/223/223754pfno0dbpv8.gif"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/fada09c85599b70f292a7b148fb35266/f20f0731857f3568-33/s250x400/b61e3b5d44be0504062d1229aa7d661ecaa544c3.gifv"></div>
+
+
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/c263529e50ad3e685c592f1e35391763/49346506959eba51-7b/s250x400/5c6557d992f2070f296577d84130d0e9e6f928cc.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/ef3cc2178737a339b07873c2823c6549/0b617b4af86c3144-a0/s640x960/003396bf753f2ef809d7e027b10e65416f11c384.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/c8215ecb96efcfbe2a0476143745c583/b0bb00562d27c377-5c/s250x400/fa3b02d9dbe7ba5a44b061c3d33f4657791b3348.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/0ff92e0d86171a870acbf0451cb8edb2/393ee05c047c15db-44/s250x400/3ab37f0e9bd5e4a8c7055cfd93476c42cc35a0d1.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/9548c8ceb74783f4d940bf36c78eae12/7c85a8258373f2fe-8b/s250x400/550b05246d687027da1e3fea79b94bf629fb83ea.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/28fce90f59cddc8c9d658bc269066381/47b090f472fc92f3-4f/s250x400/6701b56fc484a3654b97c307ff06cb8f5651b6c2.gifv"></div>
+</div>
+</div>
+
+<div class="marquee-horizontal2">
+    <div class="track-horizontal2">
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/93612348da8ea02817b6123d21395cf1/68e393feeeee9c91-ee/s250x400/c7453cc0210a3352b3156c8e636fc2d603c52b33.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/872b5f4cfb0528e2d3dfd66a29467d34/3565d40ceb643f44-7a/s400x600/e44be6850dfbc41f50319de52068d17ecf6c4aa8.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/526955790cd2e07e023d920c04ccff23/b2aca497012baaa3-81/s250x400/46d6293f5dd4501c2bdc5835f4e3a2f8d97326ca.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/f64c1888630a17c3e0638261e6431540/d213faafa826c783-c5/s250x400/871b52f6417ab334fcda4927cf87f291c82c09e7.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/44b92c7051154deb17807fd493592730/5ee10cf3657cb118-ec/s250x400/b74fc8ca11f92487628826835899f7f91a7a2c40.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/36cc6b165a885fb7ac59894ecf460a9f/008461b16818ea1d-2c/s250x400/6aa7797af93699159c117090e22dc5224a68a99c.gifv"></div>
+
+
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/19d9efca9bf3dd170b63b59f0ddb86a6/3468d393c0aae127-47/s250x400/ebdd7d8163a8f65e82cde621575ad9eb4c303184.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/81a76b5a3737e411c33eab3335a79a88/c012751918a09821-4d/s250x400/f685e507c1a822a95a370cd776e006254592c196.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/2aa66489597eea54ee988e7a04932a4e/e708ba2e75e547c2-e6/s250x400/1659ae7afa3c4a433d6bf7c663f311c74858dff1.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/620632c0388c1cc74c2824a81aff3f65/67c914075dd03bb8-c9/s250x400/264158295172db22ff421bcee91a262d019035e6.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/6eb9bb630c3af3b671095ba294b2f157/d2cc6f426274b943-63/s250x400/fdebde7d54e0cdd0255f9b0655eac7257796027a.gifv"></div>
+<div class="marquee-text"><img style="width: 150px; height: 20px;" src="https://64.media.tumblr.com/af1f1f9ff1f0ccca40fe6cf1e312caf9/8eb4d08cd0507c83-b0/s1280x1920/5c6ccef94c18238b198f1a0bac91e489d0e1904d.gifv"></div>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+<div class="copyright">
+<p>transmuted ⍟ aug 25 2021</p>
+</div>
+       
+<div id="overlay"></div>
+</center>
+</div>
+    
+<script>
+document.getElementById("startOrStopImg").onclick = function() {
+    var audio = document.getElementById("audio");
+    if (audio.paused) audio.play();
+    else audio.pause();
+};
+
+// polyfill
+window.requestAnimationFrame = (function(){
+  return  window.requestAnimationFrame       ||
+          window.webkitRequestAnimationFrame ||
+          window.mozRequestAnimationFrame    ||
+          function( callback ){
+            window.setTimeout(callback, 1000 / 80);
+          };
+})();
+
+var speed = 5000;
+(function currencySlide(){
+    var currencyPairWidth = $('.slideItem:first-child').outerWidth();
+    $(".slideContainer").animate({marginLeft:-currencyPairWidth},speed, 'linear', function(){
+                $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
+        });
+        requestAnimationFrame(currencySlide);
+})();
+
+</script>
+
+<script>
+(function(){
+
+  var SCROLL_WIDTH = 24;
+
+  var btn_popupt = document.getElementById("btn_popupt");
+  var popupt = document.getElementById("popupt");
+  var popup_bart = document.getElementById("popup_bart");
+  var btn_closet = document.getElementById("btn_closet");
+  var smoket = document.getElementById("smoket");
+
+  //-- let the popup make draggable & movable.
+  var offset = { x: 0, y: 0 };
+
+  popup_bart.addEventListener('mousedown', mouseDown, false);
+  window.addEventListener('mouseup', mouseUp, false);
+
+  function mouseUp()
+  {
+    window.removeEventListener('mousemove', popuptMove, true);
+  }
+
+  function mouseDown(e){
+    offset.x = e.clientX - popupt.offsetLeft;
+    offset.y = e.clientY - popupt.offsetTop;
+    window.addEventListener('mousemove', popuptMove, true);
+  }
+
+  function popuptMove(e){
+    popupt.style.position = 'absolute';
+    var top = e.clientY - offset.y;
+    var left = e.clientX - offset.x;
+    popupt.style.top = top + 'px';
+    popupt.style.left = left + 'px';
+  }
+  //-- / let the popup make draggable & movable.
+
+  window.onkeydown = function(e){
+    if(e.keyCode == 27){ // if ESC key pressed
+      btn_closet.click(e);
+    }
+  }
+
+  btn_popupt.onclick = function(e){
+    // smoke
+    spreadSmoket(true);
+    // reset div position
+    popupt.style.top = "100px";
+    popupt.style.left = "300px";
+    popupt.style.width = "700px";
+    popupt.style.height = "500px";
+    popupt.style.display = "block";
+  }
+
+  btn_closet.onclick = function(e){
+    popupt.style.display = "none";
+    smoket.style.display = "none";
+  }
+
+  window.onresize = function(e){
+    spreadSmoket();
+  }
+  
+  function spreadSmoket(flg){
+    smoket.style.width = 100;
+    smoket.style.height = 100;
+    if (flg != undefined && flg == true) smoket.style.display = "block";
+  }
+
+}());
+</script>
+</body>
+
+<!-- Mirrored from bungeegum.neocities.org/main by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Aug 2025 18:14:08 GMT -->
+</html>
